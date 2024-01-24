@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>SlideShow</title>
+  </head>
+  <body>
+    <button id="prevBtn" onclick="prevImage()">Previous</button>
+    <button id="nextBtn" onclick="nextImage()">Next</button>
+    <button id="stopBtn" onclick="stopSlideshow()">Stop</button>
+    <button id="slideshowBtn" onclick="startSlideshow()">Slideshow</button>
+    <div style="display: none" id="last-image-warning">it's the last image</div>
+    <div style="display: none" id="first-image-warning">
+      it's the first image
+    </div>
+    <div class="gallery">
+      <img src="images/1.jpg" alt="Image 1" />
+      <img src="images/2.jpg" alt="Image 2" />
+      <img src="images/3.jpg" alt="Image 3" />
+      <img src="images/4.jpg" alt="Image 4" />
+      <img src="images/5.jpg" alt="Image 5" />
+      <img src="images/6.jpg" alt="Image 6" />
+    </div>
+  </body>
+</html>
